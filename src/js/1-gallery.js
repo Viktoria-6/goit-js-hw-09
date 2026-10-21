@@ -82,6 +82,6 @@ const galleryMarkup = images
 galleryContainer.insertAdjacentHTML('beforeend', galleryMarkup);
 
 const lightbox = new SimpleLightbox('.gallery a', {
-  captionData: 'alt',
+  captionsData: 'alt',
   captionDelay: 250,
 });
